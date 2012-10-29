@@ -1,0 +1,17 @@
+skdal
+A simple keyboard-driven application launcher for X11 written in C 
+By Sean Yeh
+
+Looks for configuration file in default location $XDG_CONFIG_HOME/skdal/skdal.xml
+A sample config is provided (test_config.xml)
+
+I will add more documentation sometime.
+
+Requires:
+X11
+mxml (http://www.minixml.org/)
+
+Usage:
+Run skdal --daemon
+Assign 'skdal' to any keyboard shortcut. When skdal is run, it will start
+accepting key inputs
