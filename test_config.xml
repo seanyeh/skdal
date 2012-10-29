@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<group name="First" key="a">
+    <execute name="notify send a hello" key="a">notify-send "hello. you pressed aa"</execute>
+    <group name="Utilities" key="p">
+        <execute key="p">notify-send "app"</execute>
+        <group name="wow" key="w">
+            <execute key="w">notify-send "apww"</execute>
+            <execute key="z">xterm</execute>
+        </group>
+    </group>
+    <execute key="l">notfy-send "al"</execute>
+</group>
